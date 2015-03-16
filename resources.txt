@@ -1,2 +1,4 @@
 http://www.responsivegridsystem.com/
 https://help.github.com/articles/branching-out/
+
+something for making divs square wihtout using pixel values: http://stackoverflow.com/questions/6693956/how-can-i-create-a-perfectly-square-div-where-height-is-equal-to-viewport

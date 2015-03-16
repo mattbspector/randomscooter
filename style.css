@@ -1,0 +1,71 @@
+/* BODY */
+.body{
+	background-color: #ecf0f1;
+}
+
+/*  SECTIONS  */
+.section {
+	position: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 10%;
+	margin-right: 10%;
+	clear: both;
+	width: 80%;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 0%;
+	font-size: 24px;
+	font-family: Cambria;
+	color: #2c3e50;
+}
+.col:first-child { margin-left: 0;}
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	color: #ecf0f1;
+	background-color: #16a085;
+	border-style: solid;
+	border-width: 1%;
+	border-color: #1abc9c;
+	width: 24%;
+}
+.span_3_of_4 {
+	color: #ecf0f1;
+	background-color: #1abc9c;
+	border-style: solid;
+	border-width: 1%;
+	border-color: #16a085;
+	width: 24%;
+}
+.span_2_of_4 {
+	color: #ecf0f1;
+	background-color: #16a085;
+	border-style: solid;
+	border-width: 1%;
+	border-color: #1abc9c;
+	width: 24%;
+}
+.span_1_of_4 {
+	color: #ecf0f1;
+	background-color: #1abc9c;
+	border-style: solid;
+	border-width: 1%;
+	border-color: #16a085;
+	width: 24%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
