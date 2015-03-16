@@ -1,1 +1,2 @@
 http://www.responsivegridsystem.com/
+https://help.github.com/articles/branching-out/
