@@ -38,6 +38,8 @@
 	border-width: 1%;
 	border-color: #1abc9c;
 	width: 24%;
+	text-align: center;
+
 }
 .span_3_of_4 {
 	color: #ecf0f1;
@@ -46,6 +48,8 @@
 	border-width: 1%;
 	border-color: #16a085;
 	width: 24%;
+	text-align: center;
+
 }
 .span_2_of_4 {
 	color: #ecf0f1;
@@ -54,6 +58,8 @@
 	border-width: 1%;
 	border-color: #1abc9c;
 	width: 24%;
+	text-align: center;
+
 }
 .span_1_of_4 {
 	color: #ecf0f1;
@@ -62,6 +68,8 @@
 	border-width: 1%;
 	border-color: #16a085;
 	width: 24%;
+	text-align: center;
+
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
